@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class main {
+public class bubble_sort {
     public static void main(String[] args) {
     int[] array={4,7,8,3,2,1};
     bubble(array);
