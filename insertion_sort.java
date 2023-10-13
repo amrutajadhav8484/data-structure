@@ -1,12 +1,16 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
-import java.until.Arrays;
-public class Main {
+/
+import java.util.Arrays;
+public class insertion_sort {
     public static void main(String[] args) {
         int[] arr={4,5,1,2,3};
         insertion(arr);
         System.out.println(Arrays.toString(arr));
+    }
+    static void swap(int[] arr,int first,int second)
+    {
+        int temp=arr[first];
+        arr[first]=arr[second];
+        arr[second]=temp;
     }
     static void insertion(int[] arr)
     {
@@ -25,3 +29,5 @@ public class Main {
         }
     }
 }
+ 
+            
